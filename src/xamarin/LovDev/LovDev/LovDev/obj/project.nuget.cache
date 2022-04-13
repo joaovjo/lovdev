@@ -1,14 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "YcX0D7f9IWuZYWVbt1pnoOE3yrGP4a4h+LVFrFkfytbP1vFMeeaU2cywJ7cT9hW4t/4qZ210Y4hFye24Ja5r2Q==",
+  "dgSpecHash": "klyb8VmquE7+sZ419x/7L3XxxZbKRw0vi/qnKVgC5cIWQGrdeTMgeCSU7XgwvhEHbCkQDPJdLVJjFxC3cBFmxA==",
   "success": true,
   "projectFilePath": "D:\\projetos\\lovdev\\src\\xamarin\\LovDev\\LovDev\\LovDev\\LovDev.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\joao\\.nuget\\packages\\mltoolkit.forms.swipecardview\\2.2.0\\mltoolkit.forms.swipecardview.2.2.0.nupkg.sha512",
     "C:\\Users\\joao\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\joao\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\joao\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\joao\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\joao\\.nuget\\packages\\xamarin.essentials\\1.7.2\\xamarin.essentials.1.7.2.nupkg.sha512",
+    "C:\\Users\\joao\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache D:\\projetos\\lovdev\\src\\xamarin\\LovDev\\LovDev\\LovDev\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
