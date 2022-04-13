@@ -1,0 +1,15 @@
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\bin\Debug\netstandard2.0\LovDev.deps.json
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\bin\Debug\netstandard2.0\LovDev.dll
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\bin\Debug\netstandard2.0\LovDev.pdb
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\LovDev.csproj.AssemblyReference.cache
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\LovDev.GeneratedMSBuildEditorConfig.editorconfig
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\LovDev.AssemblyInfoInputs.cache
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\LovDev.AssemblyInfo.cs
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\LovDev.csproj.CoreCompileInputs.cache
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\XamlC.stamp
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\LovDev.dll
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\refint\LovDev.dll
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\LovDev.pdb
+D:\projetos\lovdev\src\xamarin\LovDev\LovDev\LovDev\obj\Debug\netstandard2.0\ref\LovDev.dll
