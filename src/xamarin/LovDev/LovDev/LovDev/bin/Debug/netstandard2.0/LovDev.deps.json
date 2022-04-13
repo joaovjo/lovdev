@@ -1,0 +1,124 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "LovDev/1.0.0": {
+        "dependencies": {
+          "MLToolkit.Forms.SwipeCardView": "2.2.0",
+          "NETStandard.Library": "2.0.3",
+          "Xamarin.Essentials": "1.7.2",
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "runtime": {
+          "LovDev.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MLToolkit.Forms.SwipeCardView/2.2.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2401"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MLToolkit.Forms.SwipeCardView.dll": {
+            "assemblyVersion": "2.2.0.1",
+            "fileVersion": "2.2.0.1"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.7.2": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/5.0.0.2401": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.905"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.905"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.905"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LovDev/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MLToolkit.Forms.SwipeCardView/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uX6KRUopRMy75jVuNH3Kyb38wFTCaVXJsURh7y4dtsYlLRhLImrf6sJPLAGUzyTtKlqpwMQQVLTH7WLWazqJ+w==",
+      "path": "mltoolkit.forms.swipecardview/2.2.0",
+      "hashPath": "mltoolkit.forms.swipecardview.2.2.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3r2QA/54YZGw6o+cBmIQdvs9nkT1SNHHvFGl1jg2bJ/INmsPdSU4ddrwhIw6zSWSIMRbemKvXEVov1KwjRk6PQ==",
+      "path": "xamarin.essentials/1.7.2",
+      "hashPath": "xamarin.essentials.1.7.2.nupkg.sha512"
+    },
+    "Xamarin.Forms/5.0.0.2401": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fk/V8QWjeyo8UXcsqsNRMd6o1H5PBfyXYm97nxvhMsJIdeqDgfRWyIsSurM8uLGLQGdQP23R+hHj7vcTSo2UjQ==",
+      "path": "xamarin.forms/5.0.0.2401",
+      "hashPath": "xamarin.forms.5.0.0.2401.nupkg.sha512"
+    }
+  }
+}
