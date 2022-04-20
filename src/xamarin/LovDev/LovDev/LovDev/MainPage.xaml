@@ -16,7 +16,11 @@
                 <swipeCardView:SwipeCardView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                            <Image Source="{Binding Photo}"></Image>
+                            <Frame CornerRadius="10" Padding="8" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                                <AbsoluteLayout>
+                                    <Image Source="{Binding Photo}" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"></Image>
+                                </AbsoluteLayout>
+                            </Frame>
                             <Label Text="{Binding Name}"></Label>
                             <Label Text="{Binding Age}"></Label>
                         </StackLayout>
