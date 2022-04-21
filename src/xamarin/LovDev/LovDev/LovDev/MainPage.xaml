@@ -5,28 +5,41 @@
              x:Class="LovDev.MainPage">
 
     <ContentPage.Content>
-        
-        <StackLayout>
 
+        <StackLayout Padding="10">
             <swipeCardView:SwipeCardView x:Name="SwipeView1"  
-                                        VerticalOptions="FillAndExpand" 
-                                        SupportedSwipeDirections="Left,Right,Up"
+                                        VerticalOptions="FillAndExpand"
+                                        SupportedSwipeDirections="Left,Right"                                         
                                         ItemsSource="{Binding Profile}">
-                                        
                 <swipeCardView:SwipeCardView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                            <Frame CornerRadius="10" Padding="8" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
-                                <AbsoluteLayout>
-                                    <Image Source="{Binding Photo}" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All"></Image>
-                                </AbsoluteLayout>
+                        <StackLayout>
+                            <Frame>
+                                <Grid WidthRequest="200" HeightRequest="400">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="350"></RowDefinition>
+                                        <RowDefinition Height="50"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Photo}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"></Image>
+                                    <Label Grid.Row="1" TextColor="Black" FontSize="Large">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="{Binding Name}"/>
+                                                <Span Text=" - " />
+                                                <Span Text="{Binding Age}"/>
+                                                <Span Text=" anos"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </Grid>
                             </Frame>
-                            <Label Text="{Binding Name}"></Label>
-                            <Label Text="{Binding Age}"></Label>
                         </StackLayout>
                     </DataTemplate>
                 </swipeCardView:SwipeCardView.ItemTemplate>
-            
             </swipeCardView:SwipeCardView>
         
         </StackLayout>
