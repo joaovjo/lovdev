@@ -9,7 +9,7 @@
         <StackLayout Padding="10">
             <swipeCardView:SwipeCardView x:Name="SwipeView1"  
                                         VerticalOptions="FillAndExpand"
-                                        SupportedSwipeDirections="Left,Right"                                         
+                                        SupportedSwipeDirections="Left,Right,Up"                                         
                                         ItemsSource="{Binding Profile}">
                 <swipeCardView:SwipeCardView.ItemTemplate>
                     <DataTemplate>
