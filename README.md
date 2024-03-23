@@ -1,4 +1,4 @@
-# Projeto LovDev:heart:
+# Projeto LovDev :heart:
 
 
 <img src="./src/img/lovdev.jpeg" alt="Texto alternativo caso imagem não esteja disponível" width="50%" height="50%">
